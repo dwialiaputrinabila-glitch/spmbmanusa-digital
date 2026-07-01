@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Persyaratan PPDB MA NU Sumber Agung</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+body{
+    background:#f8f9fa;
+    font-family:'Segoe UI',sans-serif;
+}
+
+#syarat{
+    padding:50px 0;
+}
+
+/* Header */
+.syarat-header{
+    background:#0f5132;
+    color:#fff;
+    max-width:450px;
+    margin:0 auto 40px;
+    padding:12px 25px;
+    border-radius:50px;
+    text-align:center;
+    font-size:1.1rem;
+    font-weight:600;
+}
+
+.syarat-header i{
+    margin-right:8px;
+}
+
+/* Card */
+.syarat-card{
+    background:#fff;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 4px 20px rgba(0,0,0,.05);
+    height:100%;
+}
+
+/* Judul */
+.syarat-title{
+    font-size:1.8rem;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:20px;
+}
+
+/* List */
+.syarat-item{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    padding:10px 0;
+}
+
+.syarat-item i{
+    color:#0f5132;
+    font-size:1rem;
+    margin-top:4px;
+}
+
+.syarat-item span{
+    font-size:.95rem;
+    color:#64748b;
+    line-height:1.7;
+}
+
+/* Gambar */
+.syarat-img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+/* Tombol */
+.btn-daftar{
+    background:#0f5132;
+    color:white;
+    border:none;
+    padding:10px 24px;
+    border-radius:10px;
+    font-size:.95rem;
+    font-weight:600;
+    margin-top:15px;
+}
+
+.btn-daftar:hover{
+    background:#146c43;
+    color:white;
+}
+
+/* Mobile */
+@media(max-width:991px){
+
+    .syarat-title{
+        font-size:1.5rem;
+        text-align:center;
+    }
+
+    .syarat-card{
+        padding:20px;
+    }
+
+    .syarat-img{
+        height:220px;
+    }
+
+    .btn-daftar{
+        width:100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section id="syarat">
+
+    <div class="container">
+
+        <div class="syarat-header">
+            <i class="bi bi-file-earmark-text"></i>
+            Persyaratan Pendaftaran
+        </div>
+
+        <!-- Persyaratan Umum -->
+        <div class="row g-4 align-items-center mb-4">
+
+            <div class="col-lg-5">
+                <img src="2cowo.png.png"
+                     class="syarat-img"
+                     alt="PPDB">
+            </div>
+
+            <div class="col-lg-7">
+
+                <div class="syarat-card">
+
+                    <h2 class="syarat-title">
+                        Persyaratan Umum
+                    </h2>
+
+                    <div class="syarat-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Warga Negara Indonesia (WNI).</span>
+                    </div>
+
+                    <div class="syarat-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Telah lulus SMP/MTs atau sederajat.</span>
+                    </div>
+
+                    <div class="syarat-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Usia maksimal 21 tahun saat pendaftaran.</span>
+                    </div>
+
+                    <div class="syarat-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Mengisi formulir pendaftaran online.</span>
+                    </div>
+
+                    <div class="syarat-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Melengkapi seluruh berkas administrasi yang dipersyaratkan.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Persyaratan Khusus -->
+        <div class="row g-4 align-items-center">
+
+            <div class="col-lg-7 order-lg-1 order-2">
+
+                <div class="syarat-card">
+
+                    <h2 class="syarat-title">
+                        Persyaratan Khusus
+                    </h2>
+
+                    <div class="syarat-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>
+                            Persyaratan jalur Prestasi, Domisili,
+                            Afirmasi dan Mutasi dapat dilihat
+                            pada informasi pendaftaran yang tersedia.
+                        </span>
+                    </div>
+
+                    <a href="#" class="btn btn-daftar">
+                        Daftar Sekarang
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-5 order-lg-2 order-1">
+
+                <img src="2cewe.png.png"
+                     class="syarat-img"
+                     alt="Persyaratan">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

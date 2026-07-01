@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPMB MA NU Sumber Agung 2026</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        :root{
+            --hijau:#198754;
+            --emas:#d4af37;
+        }
+
+        .navbar{
+            background: var(--hijau);
+        }
+
+        .hero{
+            background: linear-gradient(rgba(15,81,50,.8),rgba(15,81,50,.8)),
+            url('https://unair.ac.id/wp-content/uploads/2022/06/Foto-by-Sekretariat-Kabinet.jpeg');
+            background-size: cover;
+            background-position: center;
+            color:rgb(255, 255, 255);
+            padding:120px 0;
+        }
+
+        .section-title{
+            color: var(--hijau);
+            font-weight:bold;
+        }
+
+        .icon-box{
+            padding:25px;
+            border-radius:10px;
+            transition:0.3s;
+            background:#f8f9fa;
+        }
+
+        .icon-box:hover{
+            transform:translateY(-5px);
+            box-shadow:0 5px 15px rgba(0,0,0,.1);
+        }
+
+        .btn-daftar{
+            background:var(--emas);
+            color:black;
+            font-weight:bold;
+        }
+
+        .btn-daftar:hover{
+            background:#c59d24;
+        }
+
+        footer{
+            background:var(--hijau);
+            color:white;
+            padding:20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            SPMB MA NU SUMBER AGUNG
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="projectnabila.html" class="nav-link">Beranda</a></li>
+                </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tentang
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="tentang.html">Profil</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="galeri.html">Galeri</a></li>
+          </ul>
+                <li class="nav-item"><a href="syarat.html" class="nav-link">Syarat</a></li>
+                <li class="nav-item"><a href="jadwal2.html" class="nav-link">Jadwal</a></li>
+                <li class="nav-item"><a href="daftar.html" class="nav-link" target="_blank">Pendaftaran</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center" id="home">
+    <div class="container">
+        <h1 class="display-4 fw-bold">
+            SISTEM PENERIMAAN SISWA/I BARU
+        </h1>
+        <h3>MA NU SUMBER AGUNG</h3>
+        <p class="lead">
+            Tahun Ajaran 2026/2027
+        </p>
+
+        <a href="daftar.html" class="btn btn-daftar btn-lg mt-3" target="_blank">
+            Daftar Sekarang
+        </a>
+    </div>
+</section>
+
+<section class="py-5" id="tentang">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Mengapa Memilih MA NU Sumber Agung?</h2>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="icon-box text-center">
+                    <i class="bi bi-book fs-1 text-success"></i>
+                    <h4 class="mt-3">Pendidikan Berkualitas</h4>
+                    <p>
+                        Mengintegrasikan ilmu umum dan agama
+                        untuk membentuk generasi unggul.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box text-center">
+                    <i class="bi bi-moon-stars fs-1 text-success"></i>
+                    <h4 class="mt-3">Berbasis Keislaman</h4>
+                    <p>
+                        Menanamkan nilai Ahlussunnah Wal Jama'ah
+                        dan akhlakul karimah.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box text-center">
+                    <i class="bi bi-trophy fs-1 text-success"></i>
+                    <h4 class="mt-3">Pengembangan Prestasi</h4>
+                    <p>
+                        Mendukung prestasi akademik maupun
+                        non akademik siswa.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p class="mb-0">
+            © 2026 SPMB MA NU Sumber Agung |
+            Buay Madang, OKU Timur, Sumatera Selatan
+        </p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
